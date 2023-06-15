@@ -49,7 +49,7 @@ public class about extends JDialog {
 		contentPanel.setLayout(null);
 		
 		JTextPane txtpnThisGameIs = new JTextPane();
-		txtpnThisGameIs.setText("\r\n\tThis Game is my First Game in Java Swing also i created Many Applications based on Java Swing. You can do changes in this game by adding more methods which will make the game more Attractable. \r\nYou can Download this game Source code from my code Blog. \r\nhttps://prathameshcode.blogspot.com\r\nMade This Game using JDK 17.0.1 and Eclipse 2021-12 Version.\r\nThank You For Playing this game.\r\n\r\n\r\nDeveloped By Prathamesh Dhande\r\n\r\n");
+		txtpnThisGameIs.setText("UAS PEMPROGRAMAN BERBASIS OBJECT ");
 		txtpnThisGameIs.setFont(new Font("Times New Roman", Font.PLAIN, 15));
 		txtpnThisGameIs.setBackground(new Color(255, 255, 255));
 		txtpnThisGameIs.setEditable(false);

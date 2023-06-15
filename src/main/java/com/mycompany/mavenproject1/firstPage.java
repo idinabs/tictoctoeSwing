@@ -39,7 +39,7 @@ public class firstPage {
 
 		String arg = "E:\\java_Programs\\Tictactoe\\src\\animated.gif"; // specify the gif
 		frmTicTacToe = new JFrame();
-		frmTicTacToe.setTitle("Tic Tac Toe Game");
+		frmTicTacToe.setTitle("Tic  Game");
 		frmTicTacToe.getContentPane().setBackground(Color.WHITE);
 		frmTicTacToe.setSize(648, 359);
 		frmTicTacToe.setResizable(false);

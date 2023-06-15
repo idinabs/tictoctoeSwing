@@ -58,7 +58,7 @@ public class tictactoe implements ActionListener {
 		Font font = new Font("Tahoma", Font.PLAIN, 90);
 
 		frmTicTacToe = new JFrame();
-		frmTicTacToe.setTitle("Tic Tac Toe");
+		frmTicTacToe.setTitle("Tic  Toe");
 		frmTicTacToe.getContentPane().setBackground(new Color(255, 102, 0));
 		frmTicTacToe.getContentPane().setLayout(null);
 		frmTicTacToe.setResizable(false);
@@ -142,20 +142,17 @@ public class tictactoe implements ActionListener {
 		name.setBackground(new Color(255, 204, 0));
 		name.setFont(new Font("Times New Roman", Font.PLAIN, 16));
 		name.setBounds(33, 48, 357, 32);
-
 		frmTicTacToe.getContentPane().add(name);
 
 		panel_1 = new JPanel();
 		panel_1.setBackground(new Color(255, 204, 51));
 		panel_1.setBounds(26, 48, 364, 32);
 		panel_1.setBorder(new LineBorder(Color.black, 1));
-
 		frmTicTacToe.getContentPane().add(panel_1);
 
 		player2 = new JLabel("New label");
 		player2.setFont(new Font("Times New Roman", Font.PLAIN, 16));
 		player2.setBounds(410, 155, 200, 32);
-
 		frmTicTacToe.getContentPane().add(player2);
 
 		panel_2 = new JPanel();
